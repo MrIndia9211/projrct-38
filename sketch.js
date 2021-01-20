@@ -112,7 +112,8 @@ function draw() {
      restart.visible = true;
      
      trex.changeAnimation("collided" , trex_collided);
-     
+       textSize(35)
+     text ("Reload the site to restart the game",displayWidth/2,displayHeight/2)
      
      obstaclesGroup.setVelocityXEach(0);
      cloudsGroup.setVelocityXEach(0);
